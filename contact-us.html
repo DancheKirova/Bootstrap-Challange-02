@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cd3aee4bb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">GLOZZOM </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" data-target="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html" data-target="#about-us"
+              >About us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html" data-target="#services"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html" data-target="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              href="contact-us.html"
+              data-target="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-image">
+      <div class="container">
+        <div class="hero-content text-center text-white">
+          <h2>Contact Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            molestias praesentium
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Get in Touch</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <h5 class="card-title">Adress</h5>
+                <p class="card-text">550 Main st Boston MA</p>
+
+                <h5 class="card-title">E-mail</h5>
+                <p class="card-text">test@test.com</p>
+
+                <h5 class="card-title">Phone</h5>
+                <p class="card-text">(555)555-555</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-8 mt-3 mt-md-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Please fill out this form to contact us
+                </h5>
+                <hr />
+
+                <form class="col-12 d-flex flex-wrap">
+                  <div class="mb-2 col-12 col-lg-6">
+                    <label for="exampleInputName" class="form-label"></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputName"
+                      aria-describedby="nameHelp"
+                      placeholder="First Name"
+                    />
+                  </div>
+
+                  <div class="mb-2 col-12 col-lg-6">
+                    <label for="exampleInputSurname" class="form-label"></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputSurname"
+                      aria-describedby="surnameHelp"
+                      placeholder="Last Name"
+                    />
+                  </div>
+
+                  <div class="mb-2 col-12 col-lg-6">
+                    <label for="exampleInputMail" class="form-label"></label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputMail"
+                      aria-describedby="mailHelp"
+                      placeholder="E-mail"
+                    />
+                  </div>
+
+                  <div class="mb-2 col-12 col-lg-6">
+                    <label for="exampleInputPhone" class="form-label"></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputPhone"
+                      aria-describedby="phoneHelp"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+
+                  <div class="mb-2 col-12">
+                    <label for="message"></label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="3"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+
+                  <div class="col-12 my-2">
+                    <button
+                      type="submit"
+                      class="btn-danger btn btn-border text-danger w-100"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-white my-4">
+            <h2>Our Staff</h2>
+            <hr class="bg-black" />
+          </div>
+
+          <div class="col-12 col-md-3 text-center text-white">
+            <img
+              src="./images/person1.jpg"
+              alt="Person 1"
+              class="img-border-radius"
+            />
+            <h5>Jane Doe</h5>
+            <h6>Marketing Manager</h6>
+          </div>
+
+          <div class="col-12 col-md-3 text-center text-white">
+            <img
+              src="./images/person2.jpg"
+              alt="Person 2"
+              class="img-border-radius"
+            />
+            <h5>Sarah Williams</h5>
+            <h6>Business Manager</h6>
+          </div>
+
+          <div class="col-12 col-md-3 text-center text-white">
+            <img
+              src="./images/person3.jpg"
+              alt="Person 3"
+              class="img-border-radius"
+            />
+            <h5>John Doe</h5>
+            <h6>CEO</h6>
+          </div>
+
+          <div class="col-12 col-md-3 text-center text-white">
+            <img
+              src="./images/person4.jpg"
+              alt="Person 4"
+              class="img-border-radius"
+            />
+            <h5>Steve Smith</h5>
+            <h6>Web Developer</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-black text-white">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center pt-3">
+          <p>Copyright 2018 &copy Glozzom</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-
+J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-
+Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-
+wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

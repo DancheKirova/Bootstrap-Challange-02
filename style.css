@@ -1,0 +1,168 @@
+.carousel-inner {
+  height: 580px;
+  object-fit: cover !important;
+}
+
+.carousel-caption {
+  height: 600px !important;
+  z-index: 999 !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  right: 0;
+  top: 0;
+}
+
+.btn {
+  width: 150px;
+}
+
+i {
+  font-size: 2em;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  border-left: 2px solid white !important;
+}
+
+.bg-lights {
+  background-image: url(./images/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-media {
+  background: linear-gradient(5deg, #1d1d1d, #1a1a1a2c),
+    linear-gradient(220deg, #3b3b3b2c, #575757), url(./images/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-modal {
+  color: white !important;
+  border: none !important;
+}
+
+.btn-modal:focus,
+.btn-modal:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.gallery-images {
+  max-width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.modal-image {
+  max-width: 470px;
+}
+
+.btn-border {
+  background-color: transparent !important;
+}
+
+.btn-border:hover,
+.btn-border:focus {
+  background-color: red !important;
+  color: white !important;
+}
+
+.flex-basis {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33.3333%;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-red {
+  background-color: rgb(237, 1, 1);
+}
+
+@media (min-width: 768px) {
+  .div-gallery {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .label-width {
+    width: 450px !important;
+  }
+}
+
+/* ABOUT US */
+.hero-image {
+  background-image: url(./images/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-image {
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50%;
+  transform: translateY(50%);
+}
+
+.gap {
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.testimonial-height {
+  height: 150px;
+}
+
+/* SERVICES */
+
+.bg-dark-gray {
+  background-color: #1a1818 !important;
+  color: white !important;
+}
+
+.accordion-button {
+  border: none !important;
+  border-radius: 1px !important;
+  padding: 5px;
+}
+
+.accordion-button:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.accordion-item .card {
+  background-color: #1a1818;
+}
+
+.img-border-radius {
+  border-radius: 50% !important;
+}
